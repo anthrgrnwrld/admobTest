@@ -26,6 +26,7 @@
 		36E95F321B9BC3CB00E72001 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E95F311B9BC3CB00E72001 /* StoreKit.framework */; };
 		36E95F341B9BC3D600E72001 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E95F331B9BC3D600E72001 /* SystemConfiguration.framework */; };
 		36E95F391B9BC81B00E72001 /* Admob.png in Resources */ = {isa = PBXBuildFile; fileRef = 36E95F381B9BC81B00E72001 /* Admob.png */; };
+		36E95F3B1B9BC9C300E72001 /* Admob.png in Resources */ = {isa = PBXBuildFile; fileRef = 36E95F3A1B9BC9C300E72001 /* Admob.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		36E95F331B9BC3D600E72001 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		36E95F351B9BC41600E72001 /* AdMob-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdMob-Bridging-Header.h"; sourceTree = "<group>"; };
 		36E95F381B9BC81B00E72001 /* Admob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Admob.png; path = ../../../../Desktop/Admob.png; sourceTree = "<group>"; };
+		36E95F3A1B9BC9C300E72001 /* Admob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Admob.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		36E95EC21B9B140B00E72001 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				36E95F3A1B9BC9C300E72001 /* Admob.png */,
 				36E95F381B9BC81B00E72001 /* Admob.png */,
 				36E95EC31B9B140B00E72001 /* Info.plist */,
 			);
@@ -273,6 +276,7 @@
 				36E95ECA1B9B140B00E72001 /* Main.storyboard in Resources */,
 				36E95ECF1B9B140B00E72001 /* LaunchScreen.xib in Resources */,
 				36E95EEF1B9B144800E72001 /* README.txt in Resources */,
+				36E95F3B1B9BC9C300E72001 /* Admob.png in Resources */,
 				36E95F391B9BC81B00E72001 /* Admob.png in Resources */,
 				36E95ECC1B9B140B00E72001 /* Images.xcassets in Resources */,
 			);
