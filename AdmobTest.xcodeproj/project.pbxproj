@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		362842011B9E4FA500D3E213 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E95F211B9BC36000E72001 /* AdSupport.framework */; };
+		362842021B9E4FB000D3E213 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E95F231B9BC36E00E72001 /* AudioToolbox.framework */; };
+		362842031B9E4FBF00D3E213 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E95F251B9BC37F00E72001 /* AVFoundation.framework */; };
+		362842041B9E4FC900D3E213 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E95F271B9BC38C00E72001 /* CoreGraphics.framework */; };
+		362842051B9E4FD300D3E213 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E95F291B9BC39800E72001 /* CoreTelephony.framework */; };
+		362842061B9E4FDF00D3E213 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E95F2B1B9BC3A500E72001 /* EventKit.framework */; };
+		362842071B9E4FE400D3E213 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E95F2D1B9BC3AD00E72001 /* EventKitUI.framework */; };
+		362842081B9E4FEF00D3E213 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E95F2F1B9BC3BF00E72001 /* MessageUI.framework */; };
+		362842091B9E4FFA00D3E213 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E95F311B9BC3CB00E72001 /* StoreKit.framework */; };
+		3628420A1B9E500500D3E213 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E95F331B9BC3D600E72001 /* SystemConfiguration.framework */; };
+		3628420B1B9E501900D3E213 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E95EE51B9B144800E72001 /* GoogleMobileAds.framework */; };
+		36CD08FA1B9DE7C400C531FA /* AdmobTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E95EDA1B9B140B00E72001 /* AdmobTestTests.swift */; };
+		36CD08FB1B9DE7D700C531FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E95EC61B9B140B00E72001 /* ViewController.swift */; };
 		36E95EC51B9B140B00E72001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E95EC41B9B140B00E72001 /* AppDelegate.swift */; };
 		36E95EC71B9B140B00E72001 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E95EC61B9B140B00E72001 /* ViewController.swift */; };
 		36E95ECA1B9B140B00E72001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E95EC81B9B140B00E72001 /* Main.storyboard */; };
 		36E95ECC1B9B140B00E72001 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36E95ECB1B9B140B00E72001 /* Images.xcassets */; };
 		36E95ECF1B9B140B00E72001 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36E95ECD1B9B140B00E72001 /* LaunchScreen.xib */; };
-		36E95EDB1B9B140B00E72001 /* AdmobTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E95EDA1B9B140B00E72001 /* AdmobTestTests.swift */; };
 		36E95EEE1B9B144800E72001 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E95EE51B9B144800E72001 /* GoogleMobileAds.framework */; };
 		36E95EEF1B9B144800E72001 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 36E95EEC1B9B144800E72001 /* README.txt */; };
 		36E95F221B9BC36000E72001 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E95F211B9BC36000E72001 /* AdSupport.framework */; };
@@ -93,6 +105,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3628420B1B9E501900D3E213 /* GoogleMobileAds.framework in Frameworks */,
+				3628420A1B9E500500D3E213 /* SystemConfiguration.framework in Frameworks */,
+				362842091B9E4FFA00D3E213 /* StoreKit.framework in Frameworks */,
+				362842081B9E4FEF00D3E213 /* MessageUI.framework in Frameworks */,
+				362842071B9E4FE400D3E213 /* EventKitUI.framework in Frameworks */,
+				362842061B9E4FDF00D3E213 /* EventKit.framework in Frameworks */,
+				362842051B9E4FD300D3E213 /* CoreTelephony.framework in Frameworks */,
+				362842041B9E4FC900D3E213 /* CoreGraphics.framework in Frameworks */,
+				362842031B9E4FBF00D3E213 /* AVFoundation.framework in Frameworks */,
+				362842021B9E4FB000D3E213 /* AudioToolbox.framework in Frameworks */,
+				362842011B9E4FA500D3E213 /* AdSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +324,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36E95EDB1B9B140B00E72001 /* AdmobTestTests.swift in Sources */,
+				36CD08FB1B9DE7D700C531FA /* ViewController.swift in Sources */,
+				36CD08FA1B9DE7C400C531FA /* AdmobTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
