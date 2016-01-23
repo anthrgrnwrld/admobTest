@@ -33,7 +33,7 @@ class ViewController: UIViewController, GADBannerViewDelegate {
         bannerView.delegate = self
         bannerView.rootViewController = self
         
-        var request:GADRequest = GADRequest()
+        let request:GADRequest = GADRequest()
         
         if AdMobTest {
             if SimulatorTest {
